@@ -1,13 +1,13 @@
 # Scientific Computing and Data Modeling
 
-A collection of MATLAB-based statistical modeling and data processing demonstrating concepts in Computer Vision, Digital Signal Processing (DSP), and Experimental Data Analysis.
+A collection of MATLAB projects demonstrating scientific computing techniques in computer vision, digital signal processing (DSP), statistical modeling, and experimental data analysis
 
-This repository serves as a showcase of applied mathematical modeling and technical documentation using LaTeX.
+This repository showcases numerical analysis, scientific visualization, statistical modeling, and technical documentation using MATLAB and LaTeX
 
 ## Repository Structure
 
 ### 1. Computer Vision and Image Processing (`Computer_Vision_imgProcessing`)
-Scripts focused on manipulating image matrices, feature extraction, and data compression.
+Scripts focused on manipulating image matrices, image analysis, and image compression concepts.
 * **Feature Matching & Stitching:** Image stitching pipelines using SURF feature detection, geometric transformations, and alpha blending.
 * **Spatial Filtering & Edge Detection (`Spatial_Filtering_EdgeDetection`):** Manual implementation of convolutional filters (Prewitt, Sobel, Canny) for edge detection and contrast clipping.
 * **Color Space & Histograms (`colorSpace`):** RGB to HSV conversions and histograms.
@@ -29,7 +29,7 @@ Modeling real-world experimental physics data and applying statistics.
 
 ## Tech Stack
 * **Languages:** MATLAB, LaTeX
-* **Core Concepts:** Matrix Operations, Convolutional Filtering, Signal Processing, Feature Engineering, Statistical Modeling, Data Visualization.
+* **Core Concepts:** Matrix Operations, Convolutional Filtering, Signal Processing, Regression Analysis, Statistical Modeling, Data Visualization.
 
 ## Sample Results
 
