@@ -1,0 +1,97 @@
+\documentclass[onecolumn]{article}
+
+\renewcommand*\familydefault{\sfdefault} 
+
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+
+\setlength{\topmargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\headheight}{0.5in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{6.5in}
+
+\setlength{\parindent}{0.2in}
+\setlength{\parskip}{0.1in}
+
+\begin{document}
+
+\begin{center}
+
+{\Huge  Finding Charge to Mass Ratio Using HelmHoltz Coils }\vskip 20pt
+
+{\huge \em Devesh Parekh}
+
+\end{center}
+
+\section*{Introduction}
+
+The purpose of this lab was to find the charge to mass ration,$\frac{q}{m}$, in a Helmholtz Coil.This was done by connecting a high voltage power source to the Helmholtz coil, which would power the electron gun in the device.Next we connected to a voltmeter to ensure we had the proper constant voltage.We then turned off the lights and adjusted the current until we saw a faint green glow of the cathode ray in the glass vacuume tube.The cathode ray formed a circile in the glass vacuum tube and we used the ruler attached to the back of the tube to measure the radius of the ray.Adjusting the current affected the radius of the circle; so we kept changing the current and recording both the values for the radius and the current.We repeated this process ten times. The final result of the experiment is as follows:  $\frac{q}{m}$=$1.92*10^{12}$ $\pm$ $1.19*10^{12}$ $\frac{C}{Kg}$
+
+The fundemental equation for the Helmholtz coil is used for this lab:
+% e1
+\begin{equation}
+B=\frac{8\mu_0NI}{r\sqrt{125}}
+\end{equation}
+In this equation, the magnetic field $B$, is equal to $8$, times the magnetic constant $\mu_0$, times the number of turns in the coil $N$, Times the current $I$, over the radius $r$. Both $I$ and $R$ was the recorded data for this lab. 
+
+% e2
+\begin{equation}
+S=I/r
+\end{equation}
+Equation (2),  is in the form of the equation of a line in the form of $slope=I/r$.
+
+\section*{Methods}
+We started by connecting the Helmholtz coil to a high voltage power source. Next we connected a volmeter to the Helmholtz device and made sure the voltage was at $9$ volts.Next we turned off all of the lights in the room and started adjusting the current $I$. Adjusting the current caused the electron gun to eject a cathode ray into a vacuum tube. As the current was adjusted, the shape of the ray formed a circle. The radius$r$ of the circle grew larger as the current increased in value.Using a ruler attached to the back of the Helmholtz coil we measured the radius of the ray as the current was adjusted. We took the measurements for both the radius and current. This process was repeated until we 10 data points for both $I$ and $r$.
+
+The value of $slope$ is determined from a least squares fit to $I$ plotted as a function of $r$. The value of $B$ is calculated using $I$ and $r$. The uncertainty in $B$ is calculated by propagating the uncertainty for $S$  in the calculation for $B$. Unless otherwise noted, all uncertainties are reported using $t$-statistics for 95\% confidence intervals and confidence bands.  All calculations are performed in MATLAB\footnote{The Mathworks, 
+http://www.mathworks.com}.
+
+
+\section*{Data}
+
+The data is shown in Table 1. The current for this lab was measured using a high voltage power source. The radius was measured by using a ruler attached to the Helmholtz apparatus. The constant voltage was verified using a voltmeter. The uncertainty of the current measurements is $\pm$ .005 amps ,the uncertainty of the ruler measurement would be $\pm$ .05 cm and lastly the uncertainty of the voltmeter is $\pm$ .05 volts.
+ 
+% t1
+\begin{table}[htbp!]
+\centering
+\caption{Data} 
+\begin{tabular}{cccc}
+\hline\hline
+$I$ & $r$ \\ 
+($amps$) & ($cm$) \\ 
+\hline 
+1.1 & 4 \\
+1.2 & 4.15 \\
+1.3 & 4.5\\
+1.4 & 4.6  \\
+1.6 & 4.85 \\
+1.7 & 5  \\
+1.8 & 5.15 \\
+1.9 &  5.5\\
+2.0 & 5.75 \\
+
+\hline
+\end{tabular}
+\end{table} 
+
+
+\section*{Results}
+The results for the fitted model are shown in Figure 1 The slope of the line and the value of the charge to mass ratio $\frac{q}{m}$=$1.92*10^{12}$ $\pm$ $1.19*10^{12}$ $\frac{C}{Kg}$
+\begin{figure*}[t!]
+\includegraphics[width=1\textwidth]{fig_b.eps} 
+\caption{Trend line fit to $I$($r$). The data are shown as blue points. The fitted model is shown as a red solid line. The 95\% confidence bands are shown as green dashed lines.}
+\end{figure*}
+
+
+
+The results for the fitted model are shown are shown in the imags below. The results show that it is slightly comparable to other results of the same experiment. One experiement had a value of $\frac{q}{m}$=$1.74*10^{11}$ , while our result was $\frac{q}{m}$=$1.92*10^{12}$ $\pm$ $1.19*10^{12}$ $\frac{C}{Kg}$. We may have been able to get an more accurate result if the we had collected more data points.
+
+
+\end{document}
