@@ -1,6 +1,6 @@
 \documentclass[onecolumn]{article}
 
-\renewcommand*\familydefault{\sfdefault} 
+\renewcommand*\familydefault{\sfdefault}
 
 \usepackage{amsmath}
 \usepackage{bm}
@@ -8,7 +8,6 @@
 \usepackage{helvet}
 \usepackage{graphicx}
 \usepackage{epstopdf}
-
 
 \setlength{\topmargin}{0in}
 \setlength{\oddsidemargin}{0in}
@@ -24,7 +23,7 @@
 
 \begin{center}
 
-{\Huge  Finding Moles of A Gas in A Container}\vskip 20pt
+{\Huge Finding Moles of a Gas in a Container}\vskip 20pt
 
 {\huge \em Devesh Parekh}
 
@@ -32,68 +31,64 @@
 
 \section*{Introduction}
 
-The purpose of this lab is to measure the number of moles, $n$, of a gas in a container.This was done by heating a beaker full of water until it boils at 100 degrees. Then we  inserted a device connected to a piston filled with gas. The heat of the water would transfer through the device, then the heat is shifted into gas which would push the piston up. We would then use a thermometer to record the temperature of the water and record the measurements on the piston to record the volume. Ice is then added to the hot water bath to cool the water down and then we would repeat the process of recording the temperature and volume until we had a sufficient amount of data. The result of the experiment is, $ n=2.44*10^{-6}$ $\pm$ $4.43*10^{-7} moles$. 
+The purpose of this lab is to measure the number of moles, $n$, of a gas in a container. This was done by heating a beaker full of water until it boiled at 100 degrees. Then we inserted a device connected to a piston filled with gas. The heat of the water would transfer through the device, then the heat was transferred into the gas, which would push the piston up. We would then use a thermometer to record the temperature of the water and record the measurements on the piston to determine the volume. Ice was then added to the hot water bath to cool the water down, and then we repeated the process of recording the temperature and volume until we had a sufficient amount of data. The result of the experiment is $n=2.44\times10^{-6}\pm4.43\times10^{-7}$ moles.
 
-The fundemental equation for the ideal gas is used for this lab:
-% e1
+The fundamental equation for the ideal gas law is used for this lab:
+
 \begin{equation}
 PV=nRT
 \end{equation}
-In this equation, the pressure $P$ measured in $1$ atm and volume $V$, is equal to $n$, the number moles, times the gas constant $R$ of the material, times the temperature$T$. Both $V$ and $T$ was the recorded data for this lab. We can then rearrange the ideal gas law equation to solve for volume. 
-% e2
+
+In this equation, the pressure $P$, measured in atm, and the volume $V$ are equal to $n$, the number of moles, times the gas constant $R$, times the temperature $T$. Both $V$ and $T$ were the recorded data for this lab. We can then rearrange the ideal gas law equation to solve for volume.
+
 \begin{equation}
-V=\frac{nR}{P} 
+V=\left(\frac{nR}{P}\right)T
 \end{equation}
-Equation (2) is in the form of the equation of a line in the form of $slope=\frac{nR}{P}$.
+
+Equation (2) is in the form of the equation of a line, where $slope=\frac{nR}{P}$.
 
 \section*{Methods}
 
-A beaker was filled with water then boiled to 100 degrees C .Once the water was at the boiling point, we inserted a device which was attached to a piston. The Heat would transfer from the water to the gas inside the piston where the pressure of the gas would push against the piston causing it to move up. We recorded the temperature of the water using a thermometer and recorded the volume inside the piston using labels on the side of the piston. Next we added a small amount of ice to the hot water bath to cool the water down. After it cooled down, we wrote down more temperature and volume data. This process was repeated until we eleven data points for both $T$ and $V$.
+A beaker was filled with water and then boiled to 100 degrees C. Once the water was at the boiling point, we inserted a device that was attached to a piston. The heat would transfer from the water to the gas inside the piston, where the pressure of the gas would push against the piston, causing it to move up. We recorded the temperature of the water using a thermometer and recorded the volume inside the piston using the labels on the side of the piston. Next, we added a small amount of ice to the hot water bath to cool the water down. After it cooled down, we wrote down more temperature and volume data. This process was repeated until we had eleven data points for both $T$ and $V$.
 
-The value of $slope$ is determined from a least squares fit to $V$ plotted as a function of $T$. The value of $n$ is calculated using $s$, $p$, and $R$. The uncertainty in $n$ is calculated by propagating the uncertainty for $s$  in the calculation for $n$. Unless otherwise noted, all uncertainties are reported using $t$-statistics for 95\% confidence intervals and confidence bands.  All calculations are performed in MATLAB\footnote{The Mathworks, 
-http://www.mathworks.com}.
-
+The value of the slope is determined from a least squares fit to $V$ plotted as a function of $T$. The value of $n$ is calculated using $S$, $P$, and $R$. The uncertainty in $n$ is calculated by propagating the uncertainty for $S$ in the calculation for $n$. Unless otherwise noted, all uncertainties are reported using $t$-statistics for 95\% confidence intervals and confidence bands. All calculations are performed in MATLAB\footnote{The MathWorks, http://www.mathworks.com}.
 
 \section*{Data}
 
-The data are shown in Table 1. The tempreatures for this lab were measured with a thermometer. The volume was measured by reading the tick marks on the wall of the piston. The uncertainty of the thermometer measurements is $\pm$ .25 degrees celcius and the uncertainty of the volume measurement would be $\pm$ .25 $mm^{3}$ 
- 
-% t1
+The data are shown in Table 1. The temperatures for this lab were measured with a thermometer. The volume was measured by reading the tick marks on the wall of the piston. The uncertainty of the thermometer measurements is $\pm0.25$ degrees Celsius, and the uncertainty of the volume measurement is $\pm0.25~mm^{3}$.
+
 \begin{table}[htbp!]
 \centering
-\caption{Data} 
+\caption{Data}
 \begin{tabular}{cccc}
 \hline\hline
-$T$ & $V $ \\ 
-($C$) & ($mm^{3}$) \\ 
-\hline 
+$T$ & $V$ \\
+($^\circ C$) & ($mm^{3}$) \\
+\hline
 100 & 73 \\
 90.5 & 71.5 \\
-81 & 70\\
-69 & 69  \\
-60 & 68.5  \\
-55 & 67.5  \\
-53.5 & 65   \\
+81 & 70 \\
+69 & 69 \\
+60 & 68.5 \\
+55 & 67.5 \\
+53.5 & 65 \\
 47 & 64.5 \\
 41.5 & 63.5 \\
 36.5 & 62 \\
 34 & 61 \\
 \hline
 \end{tabular}
-\end{table} 
-
+\end{table}
 
 \section*{Results}
-The results for the fitted model are shown in Figure 1. The slope of the line is $s=2.00*10^{-10}$ $\pm$ $3.63*10^{-11}$. The value of n is $ n=2.44*10^{-6}$ $\pm$ $4.43*10^{-7} moles$.
- 
+
+The results for the fitted model are shown in Figure 1. The slope of the line is $S=2.00\times10^{-10}\pm3.63\times10^{-11}$. The value of $n$ is $n=2.44\times10^{-6}\pm4.43\times10^{-7}$ moles.
+
 \begin{figure*}[t!]
-\includegraphics[width=1\textwidth]{fig_n.eps} 
-\caption{Trend line fit to $V$($T$). The data are shown as blue points. The fitted model is shown as a red solid line. The 95\% confidence bands are shown as green dashed lines.}
+\includegraphics[width=1\textwidth]{fig_n.eps}
+\caption{Trend line fit to $V(T)$. The data are shown as blue points. The fitted model is shown as a red solid line. The 95\% confidence bands are shown as green dashed lines.}
 \end{figure*}
 
-
-The results for the fitted model are shown in Figure 1. The value that was found for $n$ is 2.4408e-06 with an error of $\pm$4.4320e-07
-
-
+The results for the fitted model are shown in Figure 1. The value that was found for $n$ is $2.4408\times10^{-6}$ with an uncertainty of $\pm4.4320\times10^{-7}$.
 
 \end{document}
