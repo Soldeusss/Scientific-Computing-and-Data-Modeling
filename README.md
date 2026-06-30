@@ -1,6 +1,6 @@
 # Scientific Computing and Data Modeling
 
-A collection of MATLAB-based statistical modeling and data processing pipelines demonstrating concepts in Computer Vision, Digital Signal Processing (DSP), and Experimental Data Analysis.
+A collection of MATLAB-based statistical modeling and data processing demonstrating concepts in Computer Vision, Digital Signal Processing (DSP), and Experimental Data Analysis.
 
 This repository serves as a showcase of applied mathematical modeling and technical documentation using LaTeX.
 
