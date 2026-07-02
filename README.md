@@ -6,19 +6,19 @@ This repository showcases numerical analysis, scientific visualization, statisti
 
 ## Repository Structure
 
-### 1. Computer Vision and Image Processing (`Computer_Vision_imgProcessing`)
+### 1. Computer Vision and Image Processing
 Scripts focused on manipulating image matrices, image analysis, and image compression concepts.
 * **Feature Matching & Stitching:** Image stitching pipelines using SURF feature detection, geometric transformations, and alpha blending.
 * **Spatial Filtering & Edge Detection (`Spatial_Filtering_EdgeDetection`):** Manual implementation of convolutional filters (Prewitt, Sobel, Canny) for edge detection and contrast clipping.
 * **Color Space & Histograms (`colorSpace`):** RGB to HSV conversions and histograms.
 * **Bit-Plane Slicing & Compression (`bitPlaneSlicing_compression`):** Analyzing JPEG compression and steganography techniques.
 
-### 2. Signal Processing (`signalProcessing`)
+### 2. Signal Processing
 Analyzing sensor data and acoustic signals to extract features over time.
 * **EEG Data Analysis (`EEG-Data-Analysis`):** Processing raw physiological time-series data (`.csv`/`.mat`). Utilizes Fast Fourier Transforms (FFT), spectrograms, and bandpower extraction to analyze cognitive states across specific frequency bands (Delta, Theta, Alpha, Beta, Gamma).
 * **Wave Analysis (`waveAnalysis`):** Conducted time-frequency analysis on real-world audio datasets in MATLAB to visualize and compare dynamic frequency shifts and power distributions.
 
-### 3. Statistical Modeling and Regression (`statistical_modeling_and_regression`)
+### 3. Statistical Modeling and Regression
 Modeling real-world experimental physics data and applying statistics.
 * Implements Ordinary Least Squares (OLS) linear regression, error propagation, confidence intervals, and data visualization. 
 * **Projects Included:**
@@ -44,5 +44,3 @@ Modeling real-world experimental physics data and applying statistics.
 <img width="629" alt="OLS regression" src="https://github.com/user-attachments/assets/28615798-efa8-4383-88c6-d9afa342c5e9" />
 
 **Statistical Modeling** — Least Squares Regression applied to experimental physics data. The model maps Voltage vs. Current (Ohm's Law) to determine the physical resistance from the slope of the line of best fit, calculated here at 976.85 Ω for Resistor 1.
-
-
